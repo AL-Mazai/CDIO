@@ -1,5 +1,9 @@
 package com.cdiopro.mapper;
 
-public interface QuestionMapper {
+import com.cdiopro.pojo.Question;
 
+import java.util.List;
+
+public interface QuestionMapper {
+    List<Question> getAllQuestion();
 }

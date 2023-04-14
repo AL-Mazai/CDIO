@@ -3,5 +3,8 @@
 
 <mapper namespace="com.cdiopro.mapper.QuestionMapper">
 
+    <select id="getAllQuestion" resultType="Question">
+        select * from question;
+    </select>
 </mapper>
 
